@@ -1,0 +1,67 @@
+            * {
+                box-sizing: border-box;
+            }
+            
+            body {
+                background-color: whitesmoke;
+            }
+            /* Home Button */
+            
+            #btn a {
+                text-decoration: none;
+                width: 20px;
+                font-size: 1.1rem;
+                font-style: italic;
+            }
+            
+            #btn {
+                width: 71px;
+                border-radius: 5px;
+                cursor: pointer;
+                box-shadow: 2px 2px black;
+            }
+            
+            button a {
+                text-shadow: 3px 2px rgb(199, 230, 245);
+            }
+            
+            #btn:hover {
+                background-color: rgb(204, 167, 252);
+            }
+            /* Main Container */
+            
+            .container {
+                /* width: 80%; */
+                margin-left: 10%;
+                display: flex;
+                flex-direction: column;
+                /* border: 3px solid red; */
+                justify-content: center;
+                font-size: 1.1rem;
+                font-family: 'Roboto Mono', monospace;
+            }
+            /* Head Tags */
+            
+            h1 {
+                background-color: rgb(175 227 255);
+            }
+            
+            h2 {
+                color: darkkhaki;
+            }
+            /* Table Style */
+            
+            .container,
+            table {
+                width: 60%;
+            }
+            
+            table,
+            td {
+                border: 2px solid black;
+            }
+            
+            table,
+            td a {
+                text-decoration: none;
+            }

@@ -1,0 +1,23 @@
+body {
+    width: 540px;
+}
+
+#Sect {
+    justify-content: center;
+}
+
+.SR {
+    padding: 20px 140px;
+}
+
+@media screen and (max-width:768px) {
+    body {
+        width: 750px;
+    }
+}
+
+@media screen and (max-width:1180px) {
+    body {
+        width: 970px;
+    }
+}

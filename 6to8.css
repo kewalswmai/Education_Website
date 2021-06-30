@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Home Button */
+
+#btn a {
+    text-decoration: none;
+    width: 20px;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+#btn {
+    width: 71px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px black;
+}
+
+button a {
+    text-shadow: 3px 2px rgb(199, 230, 245);
+}
+
+#btn:hover {
+    background-color: rgb(204, 167, 252);
+}
+
+
+/* Main Container */
+
+.container {
+    width: 70%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    /* border: 3px solid red; */
+    justify-content: center;
+    font-size: 1.1rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+/* Head Tags */
+
+h2 {
+    color: darkkhaki;
+    background-color: rgb(175 227 255);
+    margin-bottom: 10px;
+}

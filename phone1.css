@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+}
+
+.container p {
+    font-size: 10px;
+}
+
+table {
+    width: 278px;
+    font-size: 12px;
+}
+
+h1,
+h2 {
+    font-size: 20px;
+}
